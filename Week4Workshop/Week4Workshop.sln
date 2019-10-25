@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.ConsleApp", "Registration.ConsleApp\Registration.ConsleApp.csproj", "{8E03EA90-A4E8-4691-A94A-05DC61BC5AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Registration.ConsleApp", "Registration.ConsleApp\Registration.ConsleApp.csproj", "{8E03EA90-A4E8-4691-A94A-05DC61BC5AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration.DBContext", "Registration.DBContext\Registration.DBContext.csproj", "{A8C9EAE5-9D94-490F-80B7-02EEC14C5011}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Registration.DBContext", "Registration.DBContext\Registration.DBContext.csproj", "{A8C9EAE5-9D94-490F-80B7-02EEC14C5011}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "registration.Models", "registration.Models\registration.Models.csproj", "{453A2EF8-E247-49EB-9AFF-98F38A6A8697}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A8C9EAE5-9D94-490F-80B7-02EEC14C5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C9EAE5-9D94-490F-80B7-02EEC14C5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C9EAE5-9D94-490F-80B7-02EEC14C5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453A2EF8-E247-49EB-9AFF-98F38A6A8697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453A2EF8-E247-49EB-9AFF-98F38A6A8697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453A2EF8-E247-49EB-9AFF-98F38A6A8697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453A2EF8-E247-49EB-9AFF-98F38A6A8697}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

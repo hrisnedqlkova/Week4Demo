@@ -1,4 +1,5 @@
-﻿using System;
+﻿using registration.Models;
+using System;
 
 namespace Registration.ConsleApp
 {
@@ -6,7 +7,9 @@ namespace Registration.ConsleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var user = new User() {Id = "123"};
+            
+           
         }
     }
 }
